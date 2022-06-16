@@ -1,0 +1,5 @@
+numero1 = int (input('Por favor, digite um número qualquer :'))
+numero2 = int (input('Por favor, digite um segundo número :'))
+s = (numero1+numero2)
+print('A soma entre',numero1,'e',numero2,'vale', s)
+print('A soma entre {} e {} vale {}'.format(numero1,numero2,s))

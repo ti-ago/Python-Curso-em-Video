@@ -1,0 +1,5 @@
+num=(int(input('Digite um número qualquer, por favor! \n')))
+ant=(int(num - 1))
+suc=(int(num + 1))
+print('O antecessor é \n {}'.format(ant))
+print('O sucessor é \n {}'.format(suc))

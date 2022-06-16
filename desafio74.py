@@ -1,0 +1,12 @@
+from random import randint
+a=randint(0,60)
+b=randint(0,60)
+c=randint(0,60)
+d=randint(0,60)
+e=randint(0,60)
+f=randint(0,60)
+tupla=(a,b,c,d,e,f)
+ordenada=(sorted(tupla))
+print(f'Os números sorteados foram{ordenada}.')
+print(f'O menor número é {ordenada[0]}')
+print(f'O maior número é {ordenada[-1]}')

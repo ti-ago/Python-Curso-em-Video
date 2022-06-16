@@ -1,0 +1,5 @@
+num=(int(input('Digite qualquer número !\n')))
+dob=(int(num * 2))
+tri=(int(num * 3))
+rai=(float(num ** (1/2)))
+print('O dobro é {}!\nO triplo é {}!\nE a raiz é {:.3f}!'.format(dob, tri, rai))

@@ -1,0 +1,8 @@
+qc = input('Digite qualquer coisa :')
+print(type(qc))
+print('É capitalizado?{:=>20}'.format(qc.istitle()))
+print('É um número decimal?{:=>20}'.format(qc.isdecimal()))
+print('É numérico?{:=>20}'.format(qc.isnumeric()))
+print('É um dígito alfanumérico?{:=>20}'.format(qc.isalnum()))
+print('É uma letra?{:=>20}'.format(qc.isalpha()))
+print('É todo em minúsculo?{:=>20}'.format(qc.islower()))
